@@ -1,0 +1,14 @@
+.footer li{
+ list-style: none;
+ text-align: justify;
+padding-left: 30px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+.social-link i{
+ margin-right: 9px;
+ cursor: pointer;
+}
+.social-link :hover{
+    color: rgb(91, 110, 151);
+}
