@@ -6,7 +6,7 @@ const TopServices = () => {
 
     const [topservices, setTopServices] = useState([])
     useEffect(() => {
-        fetch('fakedata.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setTopServices(data));
     }, [])
