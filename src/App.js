@@ -10,6 +10,10 @@ import Footer from './components/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import Hotels from './components/Hotels/Hotels';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import City from './components/City/City';
+import Services from './components/Services/Services';
+import SingleDetails from './components/SingleDetails/SingleDetails';
+
 
 function App() {
   return (
@@ -25,8 +29,18 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
+
             <Route path="/register">
               <Register></Register>
+            </Route>
+            <Route path="/city">
+              <City></City>
+            </Route>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+            <Route path="/service/:serviceId">
+              <SingleDetails></SingleDetails>
             </Route>
             <PrivateRoute path="/hotels">
               <Hotels></Hotels>

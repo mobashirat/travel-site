@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Switzerland Tour Package",
+        "describtion": "In a country with amazing scenery at every turn, it can be hard to know where to go. But one thing for certain is that you’ll want to visit the Swiss National Par near Zernez. As the country’s only national park, it’ll give you an idea of how the Alps were before tourism. From snow-crusted glaciers to captivating meadows, this place has it all.",
+        "price": "$189",
+        "img": "https://i.ibb.co/k4t0wDB/dubai-1.png"
+    },
+    {
+        "id": "2",
+        "name": "Singapore Tour Package",
+        "describtion": "Marina Bay Sands® is a destination for those who appreciate luxury. An integrated resort notable for transforming Singapore’s city skyline, it comprises three 55-storey towers of extravagant hotel rooms and luxury suites with personal butler services.So Grab the chance to visit this beautiful places with this special discount.For More you can call or visit us.",
+        "price": "$119",
+        "img": "https://i.ibb.co/n6MLQd5/dubai-2.png"
+    },
+    {
+        "id": "3",
+        "name": "China Tour Package",
+        "describtion": "According investigations, the Great Wall of China stretches through 16 provinces, cities and autonomous regions, such as Shandong, Henan, Hebei, Inner Mongolia, Shanxi, Shaanxi, Gansu, Liaoning, Ningxia, Beijing, Tianjin, Xinjiang, Heilongjiang, Qinghai, Jilin and Hubei, etc. Taking into location, landscape, transportation.",
+        "price": "$129",
+        "img": "https://i.ibb.co/CM5vn7v/dubai-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Norway Tour Package",
+        "describtion": "The Geirangerfjord is one of Norway’s most popular natural attractions. The fjord is 260 metres deep while the surrounding mountains are 1600-1700 metres high. The fjord is also known for its spectacular waterfalls and deserted fjord farms high up on the steep cliffsides. The idyllic nature and the dramatic mountains will impress any visitor in the area.",
+        "price": "$100",
+        "img": "https://i.ibb.co/0yZ6Zv1/dubai-4.png"
+    },
+    {
+        "id": "5",
+        "name": "Peru Tour Package",
+        "describtion": "This is known as one of the best treks in the whole world, and was recognised so by National Geographic. The Classic Trek is 4 days long and takes you to Machu Picchu where you enter through the Sun Gate (Inti Punku). This is the only route that allows you to enjoy the sunset upon entering through this way.Don't miss the chance to grab this amazing discount.",
+        "price": "$112",
+        "img": "https://i.ibb.co/8XLBFSc/dubai-5.png"
+    },
+    {
+        "id": "6",
+        "name": "Falls Tour Package",
+        "describtion": "Every year, millions of visitors come to see the spectacular beauty of Niagara Falls. It's always free to walk into Niagara Falls State Park to see the Falls, and it's open 365 days a year. During the summer, Tuesday, Wednesday and Thursday are the best days to visit.We can give you garrenty this you will take amazing memories with you.",
+        "price": "$201",
+        "img": "https://i.ibb.co/FJTNfZL/dubai-6.png"
+    },
+    {
+        "id": "7",
+        "name": "Maldives Tour Package",
+        "describtion": "Maldives is allmost most of the people's dream destination.Bananna Reef is the very first diving spot in Maldives to get recognition for licensed diving and training. Shaped like a banana, the reef is choc-a-block with exuberant marine life, fantastic corals, amazing cliffs, overhangs, and caves.",
+        "price": "$129",
+        "img": "https://i.ibb.co/Bcb0kj2/dubai-7.png"
+    },
+    {
+        "id": "8",
+        "name": "Thiland Tour Package",
+        "describtion": "Phi Phi Viewpoint is one of the most popular landmarks on Koh Phi Phi Don.A 100-metre flat strip of sand between Dalum Bay to the north and Tonsai Bay to the south.  You can find the viewpoint to the east of the flat strip of sand and overlooks the village and the 2 bays.So why are you waiting for!! ",
+        "price": "$143",
+        "img": "https://i.ibb.co/4jyBY5W/dubai.png"
+    }
+]

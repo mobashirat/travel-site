@@ -12,12 +12,14 @@ const Footer = () => {
                     <li>help</li>
                     <li>FAQ</li>
                 </div>
+
                 <div className="col-md-3 col-12 mt-4">
                     <li>news</li>
                     <li>about us</li>
                     <li>privacy policy</li>
                     <li>discount</li>
                 </div>
+
                 <div className="col-md-3 col-12 mt-4">
 
                     <li>support</li>
@@ -25,6 +27,7 @@ const Footer = () => {
                     <li>hotels</li>
                     <li>booking</li>
                 </div>
+
                 <div className="col-md-3 col-12 mt-4 social-link">
                     <h6>Follow us</h6>
                     <i class="fab fa-facebook fs-3"></i>
@@ -33,6 +36,7 @@ const Footer = () => {
                     <i class="fab fa-twitter fs-3"></i>
 
                 </div>
+                <hr />
                 <p style={{ color: 'gray' }}><i class="far fa-copyright"></i>All right reserved by Take Off 2021</p>
 
             </div>
