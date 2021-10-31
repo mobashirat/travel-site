@@ -10,7 +10,7 @@ const Services = () => {
     }, [])
     return (
         <div>
-
+            <h1 className="animate__animated animate__slow  animate__bounce mb-4 mt-4">OUR PACKAGES</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 {
                     services?.map(service => <Service

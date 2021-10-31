@@ -37,7 +37,7 @@ const Footer = () => {
 
                 </div>
                 <hr />
-                <p style={{ color: 'gray' }}><i class="far fa-copyright"></i>All right reserved by Take Off 2021</p>
+                <p className="copyright"><i class="far fa-copyright"></i>All right reserved by Take Off 2021</p>
 
             </div>
 

@@ -1,0 +1,15 @@
+.row{
+    justify-content: center;
+    text-align: justify;
+    margin-left: 15px;
+}
+.row span{
+    color: goldenrod;
+    font-weight: 700;
+}
+.des{
+    color: white;
+}
+.header{
+    color: red;
+}

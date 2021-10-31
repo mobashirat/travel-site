@@ -5,3 +5,16 @@
    margin: auto;
 
 }
+.card-col{
+    background-color: rgb(10, 5, 5);
+    color: white;
+   box-shadow: 0px 2px 8px rgb(138, 127, 127);
+  
+}
+.animate__bounce{
+    font-size: 30px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-weight: 700;
+}

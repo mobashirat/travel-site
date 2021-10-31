@@ -1,10 +1,11 @@
 import React from 'react';
+import './City.css'
 
 
 const City = () => {
     return (
         <div>
-            <h3>Most Popular City you can visit!!</h3>
+            <h3 className="city animate__fadeInBottomLeft animate__animated animate__slower">MOST VISITED CITIES !!</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4 p-3">
                 <div class="col">
                     <div class="card h-100 shadow">

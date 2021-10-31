@@ -1,0 +1,14 @@
+.body-col{
+background-image: linear-gradient(rgb(120, 121, 120),rgb(17, 53, 17));
+color: white;
+
+}
+.body-col i, h5{
+    text-align: center;
+}
+.animate__flip{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color:green;
+}

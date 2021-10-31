@@ -12,3 +12,7 @@ cursor: pointer;
 .social-link :hover{
     color: rgb(91, 110, 151);
 }
+.copyright{
+    color: gray;
+    text-align: center;
+}

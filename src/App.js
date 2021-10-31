@@ -39,11 +39,12 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
-            <Route path="/service/:serviceId">
-              <SingleDetails></SingleDetails>
-            </Route>
+
             <PrivateRoute path="/hotels">
               <Hotels></Hotels>
+            </PrivateRoute>
+            <PrivateRoute path="/service/:serviceId">
+              <SingleDetails></SingleDetails>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>

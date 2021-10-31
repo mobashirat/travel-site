@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import './Header.css'
 
 const Header = () => {
     const { user, logOut } = useAuth()
@@ -10,26 +11,26 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home"> <i className="fas fa-plane-departure fs-2"> Take Off</i>
+                    <Navbar.Brand href="#home"> <i className="fas fa-plane-departure fs-2"><span style={{ color: 'red' }}>Take Off</span></i>
                     </Navbar.Brand>
 
                     <Navbar.Toggle />
 
-                    <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={Link} to="/home" className="fs-5 ms-1">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/hotels" className="fs-5 ms-1">Hotels</Nav.Link>
-                        <Nav.Link as={Link} to="/city" className="fs-5 ms-1">city
+                    <Navbar.Collapse className="justify-content-end nav">
+                        <Nav.Link as={Link} to="/home" className="fs-5 ms-1"><span>Home</span></Nav.Link>
+                        <Nav.Link as={Link} to="/hotels" className="fs-5 ms-1"><span>Hotels</span></Nav.Link>
+                        <Nav.Link as={Link} to="/city" className="fs-5 ms-1"><span>city</span>
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/services" className="fs-5 ms-1">Packages
+                        <Nav.Link as={Link} to="/services" className="fs-5 ms-1"><span>Packages</span>
                         </Nav.Link>
 
-                        <Nav.Link as={Link} to="/register" className="fs-5 ms-1">Sign up</Nav.Link>
+                        <Nav.Link as={Link} to="/register" className="fs-5 ms-1"><span>Sign up</span></Nav.Link>
 
 
 
                         {user?.displayName ?
-                            <Button onClick={logOut} variant="secondary">Logout</Button> :
-                            <Nav.Link as={Link} to="/login" className="fs-5 ms-1">Login</Nav.Link>}
+                            <Button onClick={logOut} variant="info">Logout</Button> :
+                            <Nav.Link as={Link} to="/login" className="fs-5 ms-1"><span>Login</span></Nav.Link>}
 
                         <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>

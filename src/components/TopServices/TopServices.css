@@ -1,0 +1,13 @@
+.animate__heartBeat{
+   margin-bottom: 10px;
+  padding-top: 20px;
+    font-weight: 700;
+    color: red;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.service-container{
+    background-color: black;
+    margin-top: 0;
+}
