@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Travel Site Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with https://travel-site-e023d.web.app/home
 
 ## Available Scripts
 
-In the project directory, you can run:
+In this website, you can:
+•see our top packages.
+•you can book any package you want.
+•we also have best hotels with amazing services.
+•you can see our reviews,so that you can make decisions.
+•you can choose your transportion.
 
 ### `npm start`
 
