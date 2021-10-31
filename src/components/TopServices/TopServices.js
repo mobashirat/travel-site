@@ -7,7 +7,7 @@ const TopServices = () => {
 
     const [topservices, setTopServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://shocking-flesh-54978.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setTopServices(data));
     }, [])
